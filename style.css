@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  border: 1px solid #ddd;
+  width: 75%;
+  color: white;
+  text-align: center;
+  margin-top: -1px;
+  /* Prevent double borders */
+  background: linear-gradient(to right, rgb(0, 255, 247), rgb(116, 2, 177), rgb(247, 0, 255));
+  padding: 12px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+}
+
+#myInput2 {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  border: 1px solid #ddd;
+  width: 30%;
+  color: white;
+  text-align: center;
+  margin-top: -1px;
+  /* Prevent double borders */
+  background: linear-gradient(to right, rgb(0, 255, 247), rgb(116, 2, 177), rgb(247, 0, 255));
+  padding: 12px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+}
+
+
+.gradient {
+  font-size: 72px;
+  background: -webkit-linear-gradient(rgb(0, 255, 247), rgb(116, 2, 177), rgb(247, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient2 {
+  font-size: 36px;
+  background: -webkit-linear-gradient(rgb(0, 255, 247), rgb(116, 2, 177), rgb(247, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient3 {
+  font-size: 36px;
+  background: -webkit-linear-gradient(rgb(0, 255, 247), rgb(116, 2, 177), rgb(247, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-decoration: underline;
+}
+
+.purchase {
+  color: white;
+  font-size: 20px;
+  width: 220px;
+  height: 55px;
+  background: linear-gradient(to right, rgb(0, 255, 247), rgb(116, 2, 177), rgb(247, 0, 255));
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  height: 1.5em;
+  width: 1.5em;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: .10s;
+  border-radius: 4em;
+  background: linear-gradient(to right, rgb(0, 255, 247), rgb(116, 2, 177), rgb(247, 0, 255));
+}
+
+input[type="checkbox"]:checked {
+  background: linear-gradient(to right, rgb(0, 255, 247), rgb(116, 2, 177), rgb(247, 0, 255));
+}
+
+input[type="checkbox"]:before,
+input[type="checkbox"]:checked:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 1.5em;
+  text-align: center;
+  color: white;
+}
+
+input[type="checkbox"]:checked:before {
+  content: '✔';
+}
+
+a {
+  font-size: 170%;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amey Domains: Best Domain and Amey Web Hosting</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="search.png">
+
+</head>
+
+<body>
+    <center>
+        <div id="gradient">
+            <h1 class="gradient">Amey Domains</h1>
+        </div>
+        <div id="strt">
+            <input type="text" id="myInput" placeholder="Search for your domain" title="Type your desired domain">
+            <img src="search.png" width="30px" onclick="searchkaro()" style="cursor: pointer;" id="icon"></img>
+        </div>
+        &nbsp
+        &nbsp
+        <div id="domainpurchase">
+            <h1 class="gradient2" id="domain"></h1>
+            <button class="purchase" id="purchasebutton" onclick="purchase()">Purchase this domain</button>
+        </div>
+
+        <div id="purchasing">
+            <h1 class="gradient2" id="condomain"></h1>
+            <h1 class="gradient">Purchase Options</h1>
+            <input type="checkbox" value="aPay (Amey Pay)" name="apay" id="myCheck">
+            <label for="apay" class="gradient2">aPay(Amey Pay)</label>
+            &nbsp
+            &nbsp
+            <input type="text" id="myInput2" placeholder="Enter aPay Customer Code">
+            &nbsp
+            <button class="purchase" id="purchasebuttonlast" onclick="realpurchase();">Purchase</button>
+            <br>
+            <button class="purchase" id="reload" onclick="window.location.reload();">Wanna Change Domain
+                Name?</button>
+            &nbsp
+        </div>
+
+        <div id="purchased">
+            <h1 class="gradient" id="purchasessss"></h1>
+            <p class="gradient2" id="note"></p>
+        </div>
+    </center>
+</body>
+<script src="sketch.js"></script>
+</html>
